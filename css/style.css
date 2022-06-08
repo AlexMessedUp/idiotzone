@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    width: 100vh;
+    overflow-x: hidden;
+    background-color: #a0d8efff;
+}
+
+.page_bar{
+
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+
+}
+
+.page_bar .page_btn{
+
+    position: absolute;
+    top: 25%;
+    left: 125%;
+    transform: translate(-50%, -50%);
+
+}
+
+.page_bar .page_btn1{
+
+    position: absolute;
+    top: 25%;
+    left: 165%;
+    transform: translate(-50%, -50%);
+
+}
+
+.page_bar .page_btn2{
+
+    position: absolute;
+    top: 25%;
+    left: 205%;
+    transform: translate(-50%, -50%);
+
+}
+
+.page_bar .page_btn3{
+
+    position: absolute;
+    top: 25%;
+    left: 245%;
+    transform: translate(-50%, -50%);
+
+}
